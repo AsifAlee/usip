@@ -2,7 +2,7 @@
 
 *{
   margin: 0;
-  padding: 0;
+  padding:0;
   box-sizing: border-box;
   list-style: none;
   text-decoration: none;
@@ -16,7 +16,7 @@
 }
 
 
-.export-add-btn-div .btn{
+.export-add-btn-div .bttn{
   padding: 8px 20px;
   border-radius: 8px;
 
@@ -31,6 +31,8 @@
 .add-btn{
   color: white;
   background-color: #2B6381;
+  padding: 8px 20px;
+  border-radius: 8px;
 }
 
  .colored{
@@ -45,8 +47,8 @@
 }
 
 body{
-   background-color: #F5F5F5;
-   margin:20px;
+   background-color: #F5F5F5  !important;
+   
 }
 
 .wrapper{
@@ -56,10 +58,13 @@ body{
 }
 
 .wrapper .sidebar{
-  width: 200px;
-  height: 100%;
+  width: 250px;
+
   background: #2B6381;
   padding: 30px 0px;
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-bottom: 15px;
   
   border-radius: 0px 16px 0px 16px;
 }
@@ -137,6 +142,7 @@ td i {
 
 .wrapper .main_content{
   width: 100%;
+  margin-right: 15px;
  
 }
 
@@ -158,8 +164,8 @@ td i {
 }
 
 .wrapper .main_content .table-container{
-  width: 100%;
-  height: 100%;
+
+
   padding-left: 15px;
   padding-top: 20px;
   padding-right: 15px;
@@ -201,13 +207,13 @@ th:first-child{
 
 }
 
-.btn.approved{
+.tb-btn-approved{
   background-color: #6ED559;
   color: white;
   border: 1px solid #ECECEC;
   
 }
-.btn.rejected{
+.tb-btn-rejected{
   background-color: #EF2127;
   color: white;
   border: 1px solid #ECECEC;
@@ -220,7 +226,7 @@ border: 1px solid #ECECEC;
 
 }
 
-.btn.ureview{
+.tb-btn-ureview{
  background-color: #80B7EC;
  color: white;
  border: 1px solid #ECECEC;
