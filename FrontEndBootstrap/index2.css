@@ -228,8 +228,9 @@ th{
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: left;
-  padding-left:18px;
-  font-size: 17px;
+  padding-left:11px;
+  font-size: 14px;
+ 
 }
 
 th:first-child{
@@ -240,13 +241,13 @@ th:first-child{
 .tb-btn-approved{
   background-color: #6ED559;
   color: white;
-  border: 1px solid #ECECEC;
+  
   
 }
 .tb-btn-rejected{
   background-color: #EF2127;
   color: white;
-  border: 1px solid #ECECEC;
+  
   
 }
 
@@ -258,21 +259,36 @@ th:first-child{
 .btn.pending{
 background-color: #FFD547;
 color: white;
-border: 1px solid #ECECEC;
 
+
+}
+.trBtn{
+  display: inline-block;
+  font-weight: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+   padding: 2px 10px; 
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: .25rem;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+ 
 }
 
 .tb-btn-ureview{
  background-color: #80B7EC;
  color: white;
- border: 1px solid #ECECEC;
+ /*border: 1px solid #ECECEC;*/
  
 }
 
-.btn-p{
-  padding:5px 10px;
-  border-radius: 10px;
-}
+
 .main_content .navbar-dark{
   display: none;
 }
@@ -280,7 +296,10 @@ border: 1px solid #ECECEC;
   background: #2b6381;
 }
 
-
+.side-el{
+  display: flex;
+  justify-content: space-evenly;
+}
 
 /* tr:nth-child(4n+0){
   background-color: green;
@@ -302,4 +321,15 @@ border: 1px solid #ECECEC;
  .main_content .navbar-dark{
   display: block;
 }
+}
+
+@media only screen and (max-width:1258px){
+  th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    padding-left:11px;
+    font-size: 12px;
+    
+  }
 }

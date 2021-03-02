@@ -66,12 +66,10 @@
 
 <body>
   <div class="wrapper">
-    <div class="pos-f-t">
-      <div>
-        <div class="">
-          <div class="sidebar" class="collapse" id="navbarToggleExternalContent">
+    
+     <div class="sidebar" class="collapse" id="navbarToggleSidebar">
             <img src="usip_logo.jpg" style="display: block;margin: auto;">
-            <div class="p-4 pt-5">
+            <div class=" side-el">
               <ul class="list-unstyled  mb-5">
                 <li>
                   <a href="#"><i class="fas fa-tachometer-alt"></i>Dashboard</a>
@@ -132,10 +130,6 @@
             </div>
           </div>
 
-        </div>
-      </div>
-    </div>
-
     <div class="main_content">
       <div class="header">CONCEPT NOTES</div>
      <!--  <input type="number" id="changRowColorsEt" class="tab_input">
@@ -147,8 +141,8 @@
       <input type="number" id="insertRow" class="tab_input">
       <button onclick="InsertTableRow()">Insert Rows</button>  -->
       <nav class="navbar navbar-dark bg">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent"
-          aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleSidebar"
+          aria-controls="navbarToggleSidebar" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
       </nav>
@@ -168,7 +162,7 @@
             <table id='rec_table'>
 
               <tr onclick="TableRowIndex(this)">
-                <th>Note Id <i class="fas fa-angle-down"></i></th>
+                <th>Note Id <i class="fas fa-angle-down"></i> </th>
                 <th>Project Lead <i class="fas fa-angle-down"></i></th>
                 <th>Funding Source <i class="fas fa-angle-down"></i></th>
                 <th>IAA Category <i class="fas fa-angle-down"></i></th>
@@ -184,7 +178,7 @@
                 <td>USAID 2020</td>
                 <td>Monitoring,Evaluation and Learning</td>
                 <td>Emily Ashbridge</td>
-                <td><button class="tb-btn-approved btn-p">Approved</button></td>
+                <td><button class="tb-btn-approved  border trBtn">Approved</button></td>
                 <td>We should fund this</td>
                 <td><i class="far fa-sticky-note "></i><i class="far fa-eye"></i>
                   <i class="far fa-trash-alt"></i>
@@ -201,7 +195,7 @@
                 <td>USAID 2020</td>
                 <td>Monitoring,Evaluation and Learning</td>
                 <td>Emily Ashbridge</td>
-                <td><button class="tb-btn-rejected btn-p">Rejected</button></td>
+                <td><button class="tb-btn-rejected trBtn border">Rejected</button></td>
                 <td>We should fund this</td>
                 <td><i class="far fa-sticky-note"></i><i class="far fa-eye"></i><i class="far fa-trash-alt"></i></td>
 
@@ -219,7 +213,7 @@
                 <td>USAID 2020</td>
                 <td>Monitoring,Evaluation and Learning</td>
                 <td>Emily Ashbridge</td>
-                <td><button class="tb-btn-approved btn-p">Approved</button></td>
+                <td><button class="tb-btn-approved trBtn border">Approved</button></td>
                 <td>We should fund this</td>
                 <td><i class="far fa-sticky-note"></i><i class="far fa-eye"></i><i class="far fa-trash-alt"></i></td>
               </tr>
@@ -232,7 +226,7 @@
                 <td>USAID 2020</td>
                 <td>Monitoring,Evaluation and Learning</td>
                 <td>Emily Ashbridge</td>
-                <td><button class="tb-btn-ureview btn-p">Under Review</button></td>
+                <td><button class="tb-btn-ureview trBtn border">Under Review</button></td>
                 <td>We should fund this</td>
                 <td><i class="far fa-sticky-note"></i><i class="far fa-eye"></i><i class="far fa-trash-alt"></i></td>
               </tr>
@@ -246,7 +240,7 @@
                 <td>USAID 2020</td>
                 <td>Monitoring,Evaluation and Learning</td>
                 <td>Emily Ashbridge</td>
-                <td><button class="tb-btn-rejected btn-p">Rejected</button></td>
+                <td><button class="tb-btn-rejected trBtn border">Rejected</button></td>
                 <td>We should fund this</td>
                 <td><i class="far fa-sticky-note"></i><i class="far fa-eye"></i><i class="far fa-trash-alt"></i></td>
 
