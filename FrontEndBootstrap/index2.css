@@ -15,6 +15,13 @@
   
 }
 
+.addNoteBtn{
+  background-color: #2B6381;
+  color: white;
+}
+
+
+
 
 .export-add-btn-div .bttn{
   padding: 0px 0px;
@@ -23,9 +30,10 @@
 }
 
 .export-btn{
-  border: 1px solid #2B6381;
+  
   background-color:#FFFFFF ;
-  color: #2B6381;
+  border-color:#2B6381;
+  
 }
 
 .add-btn{
@@ -45,6 +53,8 @@
   border-radius: 5px;
   border:1px solid #ECECEC;
 }
+
+
 
 body{
    background-color: #F5F5F5  !important;
@@ -84,20 +94,40 @@ body{
   
 }
 
+p{
+  margin-bottom: 0px  !important;
+}
+
 .wrapper .sidebar .profDiv img{
   border-radius: 50%;
   float: left;
 }
 
+.wrapper .sidebar .profDiv .lilly{
+
+  font-size: 14px;
+  padding-bottom: 0px;
+  padding-top: 6px;
+
+}
+
+.wrapper .sidebar .profDiv .admin{
+ font-size: 10px;
+}
 
 
 .wrapper .sidebar ul li{
-  padding: 15px;
+  padding: 7px;
 
-}    
+}
+
+
+.conceptNotes{
+  font-size: 12px;
+}
 
 .wrapper .sidebar ul li a{
-  color: #bdb8d7;
+  color: white;
   display: block;
 }
 
@@ -106,7 +136,7 @@ body{
 }
 
 .wrapper .sidebar ul li:hover{
-  background-color: #594f8d;
+  background-color:none;
 }
     
 .wrapper .sidebar ul li:hover a{
@@ -219,6 +249,12 @@ th:first-child{
   border: 1px solid #ECECEC;
   
 }
+
+.tab_input{
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
+
 .btn.pending{
 background-color: #FFD547;
 color: white;
@@ -237,10 +273,33 @@ border: 1px solid #ECECEC;
   padding:5px 10px;
   border-radius: 10px;
 }
+.main_content .navbar-dark{
+  display: none;
+}
+.navbar-dark .navbar-toggler{
+  background: #2b6381;
+}
 
 
-@media (max-height: 500px){
-  .social_media{
-    display: none !important;
-  }
+
+/* tr:nth-child(4n+0){
+  background-color: green;
+} */
+
+.wrapper .sidebar ul li:hover{
+  background-color: none;
+}
+
+
+.yellow{background-color: yellow;} 
+
+.red{background-color: red;} 
+
+@media only screen and (max-width: 962px) {
+ .wrapper .sidebar{
+   display: none;
+ }
+ .main_content .navbar-dark{
+  display: block;
+}
 }
